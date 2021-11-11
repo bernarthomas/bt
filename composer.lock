@@ -1,0 +1,109 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c141a8c9c411f5c7a30214517ef502e0",
+    "packages": [
+        {
+            "name": "bernarthomas/cadre",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bernarthomas/cadre.git",
+                "reference": "98e80f6ec41bee5b55efd3e89cf83539d4170c9e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bernarthomas/cadre/zipball/98e80f6ec41bee5b55efd3e89cf83539d4170c9e",
+                "reference": "98e80f6ec41bee5b55efd3e89cf83539d4170c9e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "default-branch": true,
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "bt\\": "vendor/bt/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas",
+                    "email": "bernarthomas@free.fr"
+                }
+            ],
+            "description": "Fournit un cadre pour implémenter un site web",
+            "support": {
+                "issues": "https://github.com/bernarthomas/cadre/issues",
+                "source": "https://github.com/bernarthomas/cadre/tree/main"
+            },
+            "time": "2021-11-07T16:28:00+00:00"
+        },
+        {
+            "name": "bernarthomas/tableau_defilant",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bernarthomas/tableau_defilant.git",
+                "reference": "d43e9f723677d8dcca9a261a4d0d4f753ddf6469"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bernarthomas/tableau_defilant/zipball/d43e9f723677d8dcca9a261a4d0d4f753ddf6469",
+                "reference": "d43e9f723677d8dcca9a261a4d0d4f753ddf6469",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "default-branch": true,
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "bt\\": "vendor/bt/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas",
+                    "email": "bernarthomas@free.fr"
+                }
+            ],
+            "description": "Table html5 avec titres fixes et ligne défilantes",
+            "support": {
+                "issues": "https://github.com/bernarthomas/tableau_defilant/issues",
+                "source": "https://github.com/bernarthomas/tableau_defilant/tree/main"
+            },
+            "time": "2021-11-07T17:46:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "bernarthomas/cadre": 20,
+        "bernarthomas/tableau_defilant": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.0"
+    },
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "8.0"
+    },
+    "plugin-api-version": "2.0.0"
+}
