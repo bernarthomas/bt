@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c141a8c9c411f5c7a30214517ef502e0",
+    "content-hash": "ec69f6400bbf06c1f35137e968139bae",
     "packages": [
         {
             "name": "bernarthomas/cadre",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bernarthomas/cadre.git",
-                "reference": "98e80f6ec41bee5b55efd3e89cf83539d4170c9e"
+                "reference": "121b9378e5f337a03621e776f96bd939c7fbb576"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bernarthomas/cadre/zipball/98e80f6ec41bee5b55efd3e89cf83539d4170c9e",
-                "reference": "98e80f6ec41bee5b55efd3e89cf83539d4170c9e",
+                "url": "https://api.github.com/repos/bernarthomas/cadre/zipball/121b9378e5f337a03621e776f96bd939c7fbb576",
+                "reference": "121b9378e5f337a03621e776f96bd939c7fbb576",
                 "shasum": ""
             },
             "require": {
@@ -25,11 +25,6 @@
             },
             "default-branch": true,
             "type": "package",
-            "autoload": {
-                "psr-4": {
-                    "bt\\": "vendor/bt/"
-                }
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0+"
@@ -45,20 +40,20 @@
                 "issues": "https://github.com/bernarthomas/cadre/issues",
                 "source": "https://github.com/bernarthomas/cadre/tree/main"
             },
-            "time": "2021-11-07T16:28:00+00:00"
+            "time": "2021-12-26T14:48:25+00:00"
         },
         {
-            "name": "bernarthomas/tableau_defilant",
+            "name": "bernarthomas/tableaudefilant",
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/bernarthomas/tableau_defilant.git",
-                "reference": "d43e9f723677d8dcca9a261a4d0d4f753ddf6469"
+                "url": "https://github.com/bernarthomas/tableaudefilant.git",
+                "reference": "4eb01bccbf775fb8404b6296e728f52bd7443a5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bernarthomas/tableau_defilant/zipball/d43e9f723677d8dcca9a261a4d0d4f753ddf6469",
-                "reference": "d43e9f723677d8dcca9a261a4d0d4f753ddf6469",
+                "url": "https://api.github.com/repos/bernarthomas/tableaudefilant/zipball/4eb01bccbf775fb8404b6296e728f52bd7443a5e",
+                "reference": "4eb01bccbf775fb8404b6296e728f52bd7443a5e",
                 "shasum": ""
             },
             "require": {
@@ -66,11 +61,6 @@
             },
             "default-branch": true,
             "type": "package",
-            "autoload": {
-                "psr-4": {
-                    "bt\\": "vendor/bt/"
-                }
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0+"
@@ -83,10 +73,10 @@
             ],
             "description": "Table html5 avec titres fixes et ligne défilantes",
             "support": {
-                "issues": "https://github.com/bernarthomas/tableau_defilant/issues",
-                "source": "https://github.com/bernarthomas/tableau_defilant/tree/main"
+                "issues": "https://github.com/bernarthomas/tableaudefilant/issues",
+                "source": "https://github.com/bernarthomas/tableaudefilant/tree/main"
             },
-            "time": "2021-11-07T17:46:23+00:00"
+            "time": "2021-12-26T15:35:17+00:00"
         }
     ],
     "packages-dev": [],
@@ -94,7 +84,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "bernarthomas/cadre": 20,
-        "bernarthomas/tableau_defilant": 20
+        "bernarthomas/tableaudefilant": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
@@ -105,5 +95,5 @@
     "platform-overrides": {
         "php": "8.0"
     },
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.2.0"
 }

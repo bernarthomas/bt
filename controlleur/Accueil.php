@@ -5,7 +5,8 @@ namespace App\controlleur;
 use App\Configuration;
 use Cadre\Vue;
 use Exception;
-use Tableau;
+use TableauDefilant\Table;
+
 
 class Accueil
 {

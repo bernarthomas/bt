@@ -4,13 +4,9 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit3e049ce95c66e1bc13c5cbccaa5eee08
+class ComposerStaticInit799ac33be3b633b24fafde67d2919732
 {
     public static $prefixLengthsPsr4 = array (
-        'b' => 
-        array (
-            'bt\\' => 3,
-        ),
         'T' => 
         array (
             'TableauDefilant\\' => 16,
@@ -26,14 +22,9 @@ class ComposerStaticInit3e049ce95c66e1bc13c5cbccaa5eee08
     );
 
     public static $prefixDirsPsr4 = array (
-        'bt\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/bernarthomas/cadre/vendor/bt',
-            1 => __DIR__ . '/..' . '/bernarthomas/tableau_defilant/vendor/bt',
-        ),
         'TableauDefilant\\' => 
         array (
-            0 => __DIR__ . '/..' . '/bernarthomas/tableau_defilant',
+            0 => __DIR__ . '/..' . '/bernarthomas/tableaudefilant',
         ),
         'Cadre\\' => 
         array (
@@ -52,9 +43,9 @@ class ComposerStaticInit3e049ce95c66e1bc13c5cbccaa5eee08
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit3e049ce95c66e1bc13c5cbccaa5eee08::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit3e049ce95c66e1bc13c5cbccaa5eee08::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit3e049ce95c66e1bc13c5cbccaa5eee08::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit799ac33be3b633b24fafde67d2919732::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit799ac33be3b633b24fafde67d2919732::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit799ac33be3b633b24fafde67d2919732::$classMap;
 
         }, null, ClassLoader::class);
     }

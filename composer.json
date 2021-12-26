@@ -4,7 +4,7 @@
     "require": {
         "php": "^8.0",
         "bernarthomas/cadre": "dev-main",
-        "bernarthomas/tableau_defilant": "dev-main"
+        "bernarthomas/tableaudefilant": "dev-main"
     },
     "config": {
         "preferred-install": {
@@ -19,7 +19,8 @@
         "psr-4": {
             "App\\": "",
             "Cadre\\": "vendor/bernarthomas/cadre/",
-            "TableauDefilant\\": "vendor/bernarthomas/tableau_defilant/"
+            "TableauDefilant\\": "vendor/bernarthomas/tableaudefilant/"
+
         }
     },
     "minimum-stability": "dev"

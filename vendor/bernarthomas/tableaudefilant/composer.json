@@ -1,5 +1,5 @@
 {
-    "name": "bernarthomas/tableau_defilant",
+    "name": "bernarthomas/tableaudefilant",
     "description": "Table html5 avec titres fixes et ligne défilantes",
     "type": "package",
     "license": "GPL-3.0+",
@@ -12,10 +12,5 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^8.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "bt\\": "vendor/bt/"
-        }
     }
 }
